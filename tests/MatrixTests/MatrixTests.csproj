@@ -2,8 +2,8 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <IsPackable>false</IsPackable>
-    <RootNamespace>SectionProTests</RootNamespace>
-    <AssemblyName>SectionProTests</AssemblyName>
+    <RootNamespace>MatrixTests</RootNamespace>
+    <AssemblyName>MatrixTests</AssemblyName>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
@@ -14,13 +14,4 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\src\CrossSection\CrossSection.Net.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="ExpectedData\*.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
 </Project>
